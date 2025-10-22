@@ -1,0 +1,58 @@
+@import "styles/colors.less";
+
+atom-text-editor {
+  background-color: @background;
+  color: @foreground;
+
+  .cursor {
+    border-color: @cursor;
+  }
+
+  .selection .region {
+    background-color: @selection;
+  }
+
+  .syntax--comment {
+    color: @comment;
+    font-style: italic;
+  }
+
+  .syntax--string {
+    color: @string;
+  }
+
+  .syntax--number {
+    color: @number;
+  }
+
+  .syntax--keyword {
+    color: @keyword;
+    font-weight: 600;
+  }
+
+  .syntax--function {
+    color: @function;
+  }
+
+  .syntax--variable {
+    color: @variable;
+  }
+
+  .syntax--type {
+    color: @type;
+  }
+
+  .syntax--constant {
+    color: @constant;
+  }
+
+  .syntax--storage,
+  .syntax--operator {
+    color: lighten(@keyword, 10%);
+  }
+
+  .syntax--invalid {
+    background-color: #BE5046;
+    color: #ffffff;
+  }
+}

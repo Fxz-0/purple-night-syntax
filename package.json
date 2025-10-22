@@ -1,0 +1,11 @@
+{
+  "name": "purple-night-syntax",
+  "theme": "syntax",
+  "version": "1.0.0",
+  "description": "Un tema oscuro elegante con tonos púrpura y acentos fríos, inspirado en Purple Night de Sublime.",
+  "repository": "https://github.com/tuusuario/purple-night-syntax",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <3.0.0"
+  }
+}
